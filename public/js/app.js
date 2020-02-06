@@ -24,8 +24,8 @@ weatherForm.addEventListener('submit', (e) => {
             else {
                 messageOne.textContent = data.location
                 messageTwo.textContent = data.forecast
-                messageThree.textContent = 'Today high : '+data.dailyHigh+ ' degree celcius'
-                messageFour.textContent = 'Today Low : '+data.dailyLow+' degree celcius'
+                messageThree.textContent = 'Today high : '+data.dailyHigh+ ' degree celsius'
+                messageFour.textContent = 'Today Low : '+data.dailyLow+' degree celsius'
             }
         })
     })
